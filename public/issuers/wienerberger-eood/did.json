@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:tabulas.eu:issuers:wienerberger-eood",
+  "verificationMethod": [
+    {
+      "id": "did:web:tabulas.eu:issuers:wienerberger-eood#key-1",
+      "type": "Multikey",
+      "controller": "did:web:tabulas.eu:issuers:wienerberger-eood",
+      "publicKeyMultibase": "z6MknR5FspYewBjCobF4F1SCnATSNYqRvbRbdtMb7QUngMjL"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:tabulas.eu:issuers:wienerberger-eood#key-1"
+  ]
+}

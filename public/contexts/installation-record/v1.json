@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "inst": "https://tabulas.eu/ns/installation-record#",
+    "InstallationRecord": "https://tabulas.eu/types#InstallationRecord",
+    "installedProduct": { "@id": "inst:installedProduct", "@type": "@id" },
+    "quantity": "inst:quantity",
+    "project": "inst:project",
+    "units": "inst:units",
+    "buildingCategory": "inst:buildingCategory",
+    "installationContext": "inst:installationContext",
+    "installationDate": "inst:installationDate",
+    "supplyChain": "inst:supplyChain",
+    "deliveryNote": "inst:deliveryNote",
+    "deliveredFrom": "inst:deliveredFrom",
+    "deliveryDate": "inst:deliveryDate",
+    "note": "inst:note"
+  }
+}

@@ -1,8 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  images: { unoptimized: true },
   reactCompiler: true,
+  transpilePackages: [
+    "@digitalbazaar/vc",
+    "@digitalbazaar/data-integrity",
+    "@digitalbazaar/eddsa-2022-cryptosuite",
+    "@digitalbazaar/ed25519-multikey",
+    "@digitalbazaar/credentials-context",
+    "jsonld-signatures",
+    "jsonld",
+  ],
 };
 
 export default nextConfig;

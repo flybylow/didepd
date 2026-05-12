@@ -1,0 +1,11 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:tabulas.eu:materials:wienerberger:porotherm-25-nf",
+  "controller": "did:web:tabulas.eu:issuers:wienerberger-eood",
+  "alsoKnownAs": [
+    "https://tabulas.eu/materials/wienerberger/porotherm-25-nf"
+  ]
+}

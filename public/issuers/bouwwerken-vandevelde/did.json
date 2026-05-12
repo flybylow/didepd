@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:tabulas.eu:issuers:bouwwerken-vandevelde",
+  "verificationMethod": [
+    {
+      "id": "did:web:tabulas.eu:issuers:bouwwerken-vandevelde#key-1",
+      "type": "Multikey",
+      "controller": "did:web:tabulas.eu:issuers:bouwwerken-vandevelde",
+      "publicKeyMultibase": "z6MkjtNanScNBe3PmbHgeXU3ZHeLHYrWmjp6Cz3ep4EZqBpo"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:tabulas.eu:issuers:bouwwerken-vandevelde#key-1"
+  ]
+}

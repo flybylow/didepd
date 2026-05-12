@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cp": "https://tabulas.eu/ns/construction-product#",
+    "ConstructionProductDeclaration": "https://tabulas.eu/types#ConstructionProductDeclaration",
+    "ClayMasonryBlock": "https://tabulas.eu/types#ClayMasonryBlock",
+    "productName": "cp:productName",
+    "productFamily": "cp:productFamily",
+    "manufacturer": { "@id": "cp:manufacturer", "@type": "@id" },
+    "manufacturingSite": "cp:manufacturingSite",
+    "location": "https://schema.org/location",
+    "unCpcCode": "cp:unCpcCode",
+    "intendedUse": "cp:intendedUse",
+    "physicalProperties": "cp:physicalProperties",
+    "compressiveStrength": "cp:compressiveStrength",
+    "grossDensity": "cp:grossDensity",
+    "voidsPercentage": "cp:voidsPercentage",
+    "waterAbsorption": "cp:waterAbsorption",
+    "value": "https://schema.org/value",
+    "min": "https://schema.org/minValue",
+    "max": "https://schema.org/maxValue",
+    "unit": "https://qudt.org/schema/qudt/unit",
+    "materialComposition": "cp:materialComposition",
+    "primary": "cp:primary",
+    "secondary": "cp:secondary",
+    "certifications": "cp:certifications",
+    "reachCompliant": "cp:reachCompliant",
+    "address": "https://schema.org/address"
+  }
+}
