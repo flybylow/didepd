@@ -2,7 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  assetPrefix: "https://didepd.vercel.app",
+  assetPrefix: process.env.NODE_ENV === "production"
+    ? "https://didepd.vercel.app"
+    : undefined,
   images: { unoptimized: true },
   reactCompiler: true,
   transpilePackages: [

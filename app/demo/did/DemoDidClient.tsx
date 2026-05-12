@@ -386,15 +386,20 @@ export function DemoDidClient() {
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10">
       <header className="border-b border-zinc-200 pb-8 dark:border-zinc-800">
         <div className="flex flex-wrap items-center gap-3 border-b border-zinc-100 pb-4 dark:border-zinc-800/80">
-          <div className="relative h-9 w-40 shrink-0 sm:h-10 sm:w-44">
-            <Image
-              src="/images/logo.png"
-              alt="Wienerberger"
-              fill
-              className="object-contain object-left"
-              priority
-              sizes="176px"
-            />
+          <div className="flex min-w-0 items-center gap-2">
+            <div className="relative h-8 w-[11rem] max-w-[min(100%,14rem)] shrink-0 sm:h-9 sm:w-[13rem] sm:max-w-[16rem]">
+              <Image
+                src="/images/WIB.F_BIG.D.png"
+                alt="Wienerberger"
+                fill
+                className="object-contain object-left"
+                priority
+                sizes="(max-width: 640px) 176px, 208px"
+              />
+            </div>
+            <span className="shrink-0 font-mono text-[10px] font-semibold tracking-tight text-zinc-500 dark:text-zinc-400 sm:text-[11px]">
+              ::demo
+            </span>
           </div>
           <span className="text-[11px] font-medium uppercase tracking-wide text-zinc-500 sm:ml-auto">
             Manufacturer
@@ -424,7 +429,7 @@ export function DemoDidClient() {
 
             <div className="min-w-0 flex-1">
               <p className="text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
-                Tabulas DID + VC demo · product passport
+                Tabulas DID + VC demo
               </p>
               <h1 className="mt-1 text-2xl font-semibold tracking-tight text-zinc-950 sm:text-3xl dark:text-zinc-50">
                 One material. Many claims. One identity.
@@ -456,7 +461,12 @@ export function DemoDidClient() {
                 <div className="flex min-w-0 flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-2">
                   <dt className="shrink-0 text-zinc-500">Scope</dt>
                   <dd className="min-w-0 text-zinc-800 dark:text-zinc-200">
-                    Demo EPD chain (not an official registry entry)
+                    <span className="font-medium text-orange-700 dark:text-orange-400">
+                      Demo EPD chain
+                    </span>{" "}
+                    <span className="text-zinc-600 dark:text-zinc-400">
+                      (not official)
+                    </span>
                   </dd>
                 </div>
               </dl>
